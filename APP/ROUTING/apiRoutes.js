@@ -2,7 +2,7 @@
 var path = require('path');
 
 
-var friends = require('../data/friends.js');
+var friends = require('../DATA/friends.js/index.js.js.js');
 
 
 module.exports = function(app) {

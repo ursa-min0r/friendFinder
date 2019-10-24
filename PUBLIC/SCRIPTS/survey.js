@@ -29,13 +29,12 @@ $('#submitButton').on('click', function(event) {
             $('#question10').val().trim()
         ]
     };
-    
     $.post('/api/friends', userInput)
-      .done(function(data) {
-          
-          $('#userMatch').html(data.matchName);
-        $("#userMatchImage").attr("src", data.matchImage);
+    .done(function(data) {
         
-          $('#modal1').modal('open');
-      });
+        $('#userMatch').html(data.matchName);
+      $("#userMatchImage").attr("src", data.matchImage);
+      
+        $('#modal1').modal('open');
+    });
 });
