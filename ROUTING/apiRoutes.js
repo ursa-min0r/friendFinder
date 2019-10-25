@@ -2,7 +2,7 @@
 var path = require('path');
 
 
-var friends = require('../DATA/friends.js/index.js.js.js');
+var friends = require('/Users/andersontk/Desktop/BOOTCAMP/friendFinder/APP/DATA/friends.js');
 
 
 module.exports = function(app) {
